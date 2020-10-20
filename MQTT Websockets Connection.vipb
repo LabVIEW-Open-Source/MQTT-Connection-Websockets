@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-19 16:46:03" Creator="normandinf" Comments="" ID="dba8efd6d97b53d9bd6e1d5765e0205e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-20 14:39:05" Creator="normandinf" Comments="" ID="b95baa91e3837373ed1d64e77d4f4ace">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Websockets_Connection</Package_File_Name>
-    <Library_Version>3.1.1.5</Library_Version>
+    <Library_Version>3.1.1.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,10 +17,10 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.1.9</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.1.12</External_Dependencies>
       <External_Dependencies>mediamongrels_ltd_lib_websockets_api &gt;= 2.0.1.40</External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_labview_open_source_palette &gt;=1.0.0.1</Additional_External_Dependencies>
-      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.1.9</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.1.12</Direct_Dependencies>
       <Direct_Dependencies>mediamongrels_ltd_lib_websockets_api-2.0.1.40</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -333,7 +333,7 @@ This package consists of an extension of the MQTT Connection base class for exte
         <Path>source\Example Websockets Client-Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A982223334F630AB08E5ADA5763FE29</GUID>
+      <GUID>D2A0C780ECFA123D86C434910EE06B55</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
