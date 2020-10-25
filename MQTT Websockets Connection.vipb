@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-20 19:26:13" Creator="normandinf" Comments="" ID="1c7a9b195bda7c0fcf848daa3457fc3c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-25 19:43:05" Creator="normandinf" Comments="" ID="2a2b810729160ee9faa1e9efc9cc74ee">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Websockets_Connection</Package_File_Name>
-    <Library_Version>3.1.1.7</Library_Version>
+    <Library_Version>3.1.2.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,10 +17,10 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.1.13</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.2.20</External_Dependencies>
       <External_Dependencies>mediamongrels_ltd_lib_websockets_api &gt;= 2.0.1.40</External_Dependencies>
       <Additional_External_Dependencies>labview_open_source_project_lib_labview_open_source_palette &gt;=1.0.0.1</Additional_External_Dependencies>
-      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.1.13</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.2.20</Direct_Dependencies>
       <Direct_Dependencies>mediamongrels_ltd_lib_websockets_api-2.0.1.40</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -52,7 +52,8 @@ License: MIT License
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/MQTT-Connection-Websockets</URL>
-      <Release_Notes>Initial Release of MQTT Websockets Connection (extension of MQTT Connection class)</Release_Notes>
+      <Release_Notes>- Added "write text frame" to be used for unit testing, especially MQTT-6.0.0-1 requirement.
+- Error 31 has been set as the code for receiving text frames</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -342,7 +343,7 @@ License: MIT License
         <Path>source\Example Websockets Client-Server.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0251C7D723CF04012AB6B68A01ED4011</GUID>
+      <GUID>EF596E5BADB3129CEFC00E69B67179A4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
