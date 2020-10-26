@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-25 20:08:58" Creator="normandinf" Comments="" ID="22c98f65188375dc192a34b31b725e2e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-25 20:28:40" Creator="normandinf" Comments="" ID="0d17f54b41e44e96ee1e5e0e48c06d98">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Websockets_Connection</Package_File_Name>
-    <Library_Version>3.1.2.9</Library_Version>
+    <Library_Version>3.1.2.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -364,7 +364,7 @@ Known issue:
         <Path>source\MQTT_Websockets\Connection\Read Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DC055ADB1547C89190B20EE929512E0</GUID>
+      <GUID>8804263CBDE9B7D6092BEB926D26B3BE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
