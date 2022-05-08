@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2020-10-25 20:28:40" Creator="normandinf" Comments="" ID="0d17f54b41e44e96ee1e5e0e48c06d98">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-04-01 18:34:00" Modified_Date="2022-05-07 15:21:10" Creator="normandinf" Comments="" ID="1ff433d2e636dd5d7a003210600d055b">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_Project_lib_MQTT_Websockets_Connection</Package_File_Name>
-    <Library_Version>3.1.2.10</Library_Version>
+    <Library_Version>4.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,10 +17,11 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 3.1.2.20</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_connection &gt;= 1.0.1.6</External_Dependencies>
+      <External_Dependencies>labview_open_source_project_lib_mqtt_connection &gt;= 4.0.0.25</External_Dependencies>
       <External_Dependencies>mediamongrels_ltd_lib_websockets_api &gt;= 2.0.1.40</External_Dependencies>
-      <Additional_External_Dependencies>labview_open_source_project_lib_labview_open_source_palette &gt;=1.0.0.1</Additional_External_Dependencies>
-      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-3.1.2.20</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_connection-1.0.1.6</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_project_lib_mqtt_connection-4.0.0.25</Direct_Dependencies>
       <Direct_Dependencies>mediamongrels_ltd_lib_websockets_api-2.0.1.40</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -52,14 +53,7 @@ License: MIT License
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/MQTT-Connection-Websockets</URL>
-      <Release_Notes>[MQTT-6.0.0-1] Added "write text frame" to be used for unit testing
-[MQTT-6.0.0-1] Error 31 has been set as the code for receiving text frames
-[MQTT-6.0.0-3] Client includes subprotocol "mqtt" in send headers
-[MQTT-6.0.0-4] Server includes subprotocol "mqtt" in return headers
-
-Known issue: 
-- Websockets 2.0 API does not support case-insensitive headers, resulting in HiveMQ not being compatible for the moment. (https://github.com/MediaMongrels-Ltd/LabVIEW-WebSockets-API/issues/7)
-
+      <Release_Notes>Upgrade to common connection base class
 </Release_Notes>
     </Description>
     <Destinations>
@@ -195,6 +189,7 @@ Known issue:
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -364,7 +359,7 @@ Known issue:
         <Path>source\MQTT_Websockets\Connection\Read Headers.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8804263CBDE9B7D6092BEB926D26B3BE</GUID>
+      <GUID>B77A546471FA49BDB62D348736CBCA7A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
